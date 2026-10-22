@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 468" width="760" height="468" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">
+<rect width="760" height="468" fill="#ffffff"/>
+<text x="20" y="30" font-size="16" font-weight="600" fill="#1f2328">119 downloadable lexical resources cover Slovenian; Croatian has 10, Serbian 6</text>
+<text x="20" y="54" fill="#59636e">Downloadable lexical resources per language (ELEXIS records without files excluded). South Slavic languages in blue.</text>
+<text x="120" y="97" text-anchor="end" fill="#1f2328">Slovenian</text>
+<rect x="130" y="84" width="430.0" height="18" rx="2" fill="#2f6fd6"/>
+<text x="566.0" y="97" fill="#1f2328">119</text>
+<text x="120" y="123" text-anchor="end" fill="#1f2328">English</text>
+<rect x="130" y="110" width="68.7" height="18" rx="2" fill="#c9c7bd"/>
+<text x="204.7" y="123" fill="#1f2328">19</text>
+<text x="120" y="149" text-anchor="end" fill="#1f2328">Croatian</text>
+<rect x="130" y="136" width="36.1" height="18" rx="2" fill="#2f6fd6"/>
+<text x="172.1" y="149" fill="#1f2328">10</text>
+<text x="120" y="175" text-anchor="end" fill="#1f2328">Serbian</text>
+<rect x="130" y="162" width="21.7" height="18" rx="2" fill="#2f6fd6"/>
+<text x="157.7" y="175" fill="#1f2328">6</text>
+<text x="120" y="201" text-anchor="end" fill="#1f2328">German</text>
+<rect x="130" y="188" width="21.7" height="18" rx="2" fill="#c9c7bd"/>
+<text x="157.7" y="201" fill="#1f2328">6</text>
+<text x="120" y="227" text-anchor="end" fill="#1f2328">Hungarian</text>
+<rect x="130" y="214" width="18.1" height="18" rx="2" fill="#c9c7bd"/>
+<text x="154.1" y="227" fill="#1f2328">5</text>
+<text x="120" y="253" text-anchor="end" fill="#1f2328">BCMS (hbs)</text>
+<rect x="130" y="240" width="14.5" height="18" rx="2" fill="#2f6fd6"/>
+<text x="150.5" y="253" fill="#1f2328">4</text>
+<text x="120" y="279" text-anchor="end" fill="#1f2328">French</text>
+<rect x="130" y="266" width="10.8" height="18" rx="2" fill="#c9c7bd"/>
+<text x="146.8" y="279" fill="#1f2328">3</text>
+<text x="120" y="305" text-anchor="end" fill="#1f2328">Slovak</text>
+<rect x="130" y="292" width="10.8" height="18" rx="2" fill="#c9c7bd"/>
+<text x="146.8" y="305" fill="#1f2328">3</text>
+<text x="120" y="331" text-anchor="end" fill="#1f2328">Bulgarian</text>
+<rect x="130" y="318" width="10.8" height="18" rx="2" fill="#2f6fd6"/>
+<text x="146.8" y="331" fill="#1f2328">3</text>
+<text x="120" y="357" text-anchor="end" fill="#1f2328">Polish</text>
+<rect x="130" y="344" width="10.8" height="18" rx="2" fill="#c9c7bd"/>
+<text x="146.8" y="357" fill="#1f2328">3</text>
+<text x="120" y="383" text-anchor="end" fill="#1f2328">Russian</text>
+<rect x="130" y="370" width="10.8" height="18" rx="2" fill="#c9c7bd"/>
+<text x="146.8" y="383" fill="#1f2328">3</text>
+<text x="120" y="409" text-anchor="end" fill="#1f2328">Bosnian</text>
+<rect x="130" y="396" width="10.8" height="18" rx="2" fill="#2f6fd6"/>
+<text x="146.8" y="409" fill="#1f2328">3</text>
+<text x="120" y="435" text-anchor="end" fill="#1f2328">Macedonian</text>
+<rect x="130" y="422" width="7.2" height="18" rx="2" fill="#2f6fd6"/>
+<text x="143.2" y="435" fill="#1f2328">2</text>
+</svg>

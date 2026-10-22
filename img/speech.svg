@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 234" width="760" height="234" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">
+<rect width="760" height="234" fill="#ffffff"/>
+<text x="20" y="30" font-size="16" font-weight="600" fill="#1f2328">Croatian has 6,100 hours of speech; Slovenian, Serbian, Czech and Polish about 2,000 each</text>
+<text x="20" y="54" fill="#59636e">Hours of recorded speech per language (single-language resources, duplicate releases removed). South Slavic languages in blue.</text>
+<text x="120" y="97" text-anchor="end" fill="#1f2328">Croatian</text>
+<rect x="130" y="84" width="430.0" height="18" rx="2" fill="#2f6fd6"/>
+<text x="566.0" y="97" fill="#1f2328">6,123 h</text>
+<text x="120" y="123" text-anchor="end" fill="#1f2328">Czech</text>
+<rect x="130" y="110" width="171.1" height="18" rx="2" fill="#c9c7bd"/>
+<text x="307.1" y="123" fill="#1f2328">2,436 h</text>
+<text x="120" y="149" text-anchor="end" fill="#1f2328">Polish</text>
+<rect x="130" y="136" width="141.9" height="18" rx="2" fill="#c9c7bd"/>
+<text x="277.9" y="149" fill="#1f2328">2,020 h</text>
+<text x="120" y="175" text-anchor="end" fill="#1f2328">Slovenian</text>
+<rect x="130" y="162" width="141.7" height="18" rx="2" fill="#2f6fd6"/>
+<text x="277.7" y="175" fill="#1f2328">2,018 h</text>
+<text x="120" y="201" text-anchor="end" fill="#1f2328">Serbian</text>
+<rect x="130" y="188" width="135.4" height="18" rx="2" fill="#2f6fd6"/>
+<text x="271.4" y="201" fill="#1f2328">1,928 h</text>
+</svg>
