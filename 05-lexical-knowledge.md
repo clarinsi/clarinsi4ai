@@ -1,6 +1,6 @@
 # Lexical and knowledge resources
 
-[← Overview](README.md) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
+[← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
 Slovenian is unusually well covered by open, machine-readable lexical data: a 372k-lemma morphological lexicon (Sloleks 3.1), two wordnets, a 102k-entry thesaurus and a 78k-entry collocation dictionary, all under CC BY-SA or more permissive licences. For AI work these resources seed instruction and QA data (as in SloLexQA), support lexical probes and benchmarks (as in SYNDIST and COLLDIST), ground generation through retrieval, and help evaluate tokenisers and morphology.
 

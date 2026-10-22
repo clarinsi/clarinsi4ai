@@ -1,6 +1,6 @@
 # Pre-training data
 
-[← Overview](README.md) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
+[← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
 The repository holds about 58B words of pre-training text once known overlaps are removed (132B words across all records), and 50B of it is openly licensed. Web corpora supply most of it: CLASSLA-web 2.0 alone has 17B words in the seven South Slavic languages, and MaCoCu adds seven more languages. For Slovenian, domain corpora add 2.6B words of scientific text, 772M words of legal text and 239M words of parliamentary debate.
 

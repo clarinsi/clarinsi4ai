@@ -1,6 +1,6 @@
 # Evaluation and benchmarks
 
-[← Overview](README.md) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
+[← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
 Slovenian has a usable LLM evaluation suite: SuperGLUE and SQuAD 2.0 translations, SI-NLI, SloWiC, KE-WSC, a bias set (EEC-SL) and, since 2026, legal NLI, pragmatics and ethics sets. Other South Slavic languages have only COPA (Croatian, Serbian, Macedonian and dialects). The SloBENCH framework, listed under models and tools, hosts leaderboards for several of these sets.
 

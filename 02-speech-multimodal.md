@@ -1,6 +1,6 @@
 # Speech and multimodal data
 
-[← Overview](README.md) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
+[← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
 The repository holds about 14,500 hours of recorded speech. ParlaSpeech gives about 12,400 hours of aligned parliamentary speech for Croatian, Czech, Polish and Serbian. Slovenian has about 2,000 hours from ARTUR (1,067 h, built for ASR), Gos 2.1 (319 h, academic users only), 304 h of audiobook samples and the 100-hour Gail Valley dialect corpus. Multimodal data is limited to two recent Slovenian sets.
 

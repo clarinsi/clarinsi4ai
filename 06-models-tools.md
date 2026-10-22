@@ -1,6 +1,6 @@
 # Models and tools
 
-[← Overview](README.md) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
+[← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
 The repository holds encoder models, task models and speech and translation systems, but no generative LLM weights; the GaMS models referenced by the instruction sets are distributed on Hugging Face. These resources are most useful as baselines, as annotators for building training data (CLASSLA-Stanza, SPOT-Trankit), and for evaluation (SloBENCH, ASR model evaluator).
 

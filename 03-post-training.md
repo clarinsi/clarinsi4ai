@@ -1,6 +1,6 @@
 # Post-training data
 
-[← Overview](README.md) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
+[← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
 All instruction data in the repository is Slovenian: the GaMS-Instruct family and SloLexQA hold about 2.2M prompt–response pairs, 2.17M of them from three 2026 medical and pharmaceutical sets built from databases with LLM enrichment. General-purpose, human-written instruction data is limited to GaMS-Instruct-DH (10k pairs). There is no preference or chat-format data. The 72 task-specific supervised sets cover more languages and can be converted into instruction format.
 

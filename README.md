@@ -2,8 +2,6 @@
 
 Data as of 22 October 2026 · Source: CLARIN.SI repository export
 
-A web version of this set of documents is available [here](https://clarinsi.github.io/clarinsi4ai/).
-
 The CLARIN.SI repository holds 1,053 current resources that can feed AI development, and 797 of them carry an open licence that also allows commercial training. Its strengths are web text for 16 languages, about 14,500 hours of speech and a fast-growing set of Slovenian instruction and evaluation data. Each lifecycle stage has its own page, linked below; this page gives the overview, the gaps and the method.
 
 **Stage pages:** [Pre-training data](01-pretraining.md) · [Speech and multimodal data](02-speech-multimodal.md) · [Post-training data](03-post-training.md) · [Evaluation and benchmarks](04-evaluation.md) · [Lexical and knowledge resources](05-lexical-knowledge.md) · [Models and tools](06-models-tools.md)
@@ -23,13 +21,13 @@ Volumes are rough: many corpora repackage others, so word counts across records 
 
 ## Language coverage
 
-Slovenian appears in 742 of the downloadable resources. Croatian (77), Serbian (62), Bosnian (26), Bulgarian (22), Macedonian (20) and Montenegrin (12) follow among the South Slavic languages, and 25 other languages appear in at least five resources (82 languages in total), mostly through multilingual web, parliamentary and lexical collections.
+Counting only resources with downloadable files, Slovenian appears in 742. Croatian (77), Serbian (62), Bosnian (26), Bulgarian (22), Macedonian (20) and Montenegrin (12) follow among the South Slavic languages, and 25 other languages appear in at least five resources (82 languages in total), mostly through multilingual web, parliamentary and lexical collections.
 
 ![Downloadable resources per language and lifecycle stage](img/coverage.svg)
 
 ## Key findings
 
-- **Slovenian dominates every stage.** 762 resources include Slovenian, 128 cover only other South Slavic languages and 163 cover other languages.
+- **Slovenian dominates every stage.** Of all 1,053 resources, 762 include Slovenian: the 742 downloadable ones counted above plus 20 records without files (metaFida, Gigafida, Trendi and 17 ELEXIS dictionaries). A further 128 cover only other South Slavic languages and 163 cover other languages.
 - **Licences need checking before use.** 100 resources are non-commercial and 10 are restricted to academic users or have custom terms. 146 records have no licence and no files; they describe resources hosted elsewhere, such as the ELEXIS dictionaries, metaFida, Gigafida and Trendi.
 - **2026 is the busiest year so far.** It brought 441 new records: 402 e-book and audiobook samples, new web and monitor corpora, and most of the LLM benchmarks.
 
