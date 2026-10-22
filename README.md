@@ -2,6 +2,8 @@
 
 Data as of 22 October 2026 · Source: CLARIN.SI repository export
 
+A web version of this set of documents is available [here](https://clarinsi.github.io/clarinsi4ai/).
+
 The CLARIN.SI repository holds 1,053 current resources that can feed AI development, and 797 of them carry an open licence that also allows commercial training. Its strengths are web text for 16 languages, about 14,500 hours of speech and a fast-growing set of Slovenian instruction and evaluation data. Each lifecycle stage has its own page, linked below; this page gives the overview, the gaps and the method.
 
 **Stage pages:** [Pre-training data](01-pretraining.md) · [Speech and multimodal data](02-speech-multimodal.md) · [Post-training data](03-post-training.md) · [Evaluation and benchmarks](04-evaluation.md) · [Lexical and knowledge resources](05-lexical-knowledge.md) · [Models and tools](06-models-tools.md)
