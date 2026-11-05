@@ -2,7 +2,7 @@
 
 [← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
-The repository holds about 58B words of pre-training text once known overlaps are removed (132B words across all records), and 50B of it is openly licensed. Web corpora supply most of it: CLASSLA-web 2.0 alone has 17B words in the seven South Slavic languages, and MaCoCu adds seven more languages. For Slovenian, domain corpora add 2.6B words of scientific text, 772M words of legal text and 239M words of parliamentary debate.
+The repository holds about 58B words of pre-training text once known overlaps are removed (125B words across all records), and 50B of it is openly licensed. Web corpora supply most of it: CLASSLA-web 2.0 alone has 17B words in the seven South Slavic languages, and MaCoCu adds seven more languages. For Slovenian, domain corpora add 2.6B words of scientific text, 772M words of legal text and 239M words of parliamentary debate.
 
 ![Every South Slavic language has open web text; four have more than 2B words](img/pretraining.svg)
 
@@ -101,7 +101,7 @@ The 2026 e-book release adds 231 EPUB samples (the opening part of each book) fr
 
 ## Specialised domains: science, law, medicine, education
 
-OSS (2.6B words, CC BY-SA) and COLESLAW (772M words, CC BY) are the two large openly licensed Slovenian domain corpora. The KAS academic corpora are larger in total but restricted to academic users.
+OSS (2.6B words, CC BY-SA) and COLESLAW (772M words, CC BY) are the two large openly licensed Slovenian domain corpora. KAS 2.0 (1.5B words of academic theses) is restricted to academic users.
 
 #### Slovenian, including multilingual resources with Slovenian
 
@@ -109,17 +109,13 @@ OSS (2.6B words, CC BY-SA) and COLESLAW (772M words, CC BY) are the two large op
 | --- | --- | --- | --- | --- |
 | [Corpus of scientific texts from the Open Science Slovenia portal OSS 1.0](http://hdl.handle.net/11356/1774) | sl | 2.6B words | CC BY-SA | 2023 |
 | [Corpus of academic Slovene KAS 2.0](http://hdl.handle.net/11356/1448) | sl | 1.5B words | ACA (BY-NC) | 2022 |
-| [Corpus of Academic Slovene (BSc/BA theses) KAS-dipl 1.0](http://hdl.handle.net/11356/1267) | sl | 1.1B words | ACA (BY-NC) | 2019 |
 | [Collection of Slovenian legal texts COLESLAW 1.0](http://hdl.handle.net/11356/2095) | sl | 771.9M words | CC BY | 2024 |
-| [Corpus of Academic Slovene (MSc/MA theses) KAS-mag 1.0](http://hdl.handle.net/11356/1266) | sl | 495.8M words | ACA (BY-NC) | 2019 |
-| [Corpus of Academic Slovene (PhD theses) KAS-dr 1.0](http://hdl.handle.net/11356/1265) | sl | 101.5M words | ACA (BY-NC) | 2019 |
 | [Corpus of scientific texts of contemporary Slovenian KZB 1.0](http://hdl.handle.net/11356/1872) | sl | 33.6M words | CC BY-SA | 2023 |
 | [Tourism Corpus TURK 3.0](http://hdl.handle.net/11356/2075) | sl, it, en, de | 29.5M words | CC BY | 2025 |
 | [Abstracts from the KAS corpus KAS-Abs 2.0](http://hdl.handle.net/11356/1449) | sl, en | 28.4M words | ACA (BY-NC) | 2022 |
 | [Corpus of Slovene linguistic scientific writing JezKor](http://hdl.handle.net/11356/1755) | sl | 9.3M words | CC BY | 2023 |
 | [Corpus of Informatics DSI 5.0](http://hdl.handle.net/11356/1239) | sl | 4.3M words | ACA (BY-NC) | 2019 |
 | [Corpus of Slovenian textbooks ccUčbeniki 1.0](http://hdl.handle.net/11356/1693) | sl | 2.2M words | CC BY-NC-SA | 2022 |
-| [Developmental corpus (without language corrections) Šolar 2.0 Clear](http://hdl.handle.net/11356/1219) | sl | 1.6M words | CC BY-NC-SA | 2019 |
 | [Slovene learner corpus KOST 2.1](http://hdl.handle.net/11356/2066) | sl | 1.4M words | CC BY-SA | 2025 |
 | [Corpus of Slovenian texts for pedagogical purposes ccMAKS 1.0](http://hdl.handle.net/11356/1692) | sl | 1.2M words | CC BY-SA | 2022 |
 | [Corpus of textbooks for learning Slovenian as L2 KUUS 2.0](http://hdl.handle.net/11356/1877) | sl | 727.4k words | ACA (BY-NC) | 2023 |

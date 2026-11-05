@@ -181,7 +181,7 @@ These resources are derived from Gigafida, Gos, Trendi, Janes, KRES, Šolar and 
 
 ## ELEXIS dictionaries
 
-134 records describe dictionaries contributed to the ELEXIS project in about 40 languages; the most frequent are French (19), German (18), English (18), Slovenian (14), Serbian (11), Danish (9) and Lithuanian (9). None of these records has files or a licence in the repository: the data is hosted elsewhere, and access goes through each provider. The full list is in the spreadsheet.
+134 records describe dictionaries contributed to the ELEXIS project in 61 languages; the most frequent are French (22), English (21), German (20), Slovenian (16), Serbian (13), Danish (12) and Lithuanian (11). None of these records has files or a licence in the repository: the data is hosted elsewhere, and access goes through each provider. The full list is in the spreadsheet.
 
 ---
 

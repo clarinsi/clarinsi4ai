@@ -2,9 +2,9 @@
 
 [← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
-All instruction data in the repository is Slovenian: the GaMS-Instruct family and SloLexQA hold about 2.2M prompt–response pairs, 2.17M of them from three 2026 medical and pharmaceutical sets built from databases with LLM enrichment. General-purpose, human-written instruction data is limited to GaMS-Instruct-DH (10k pairs). There is no preference or chat-format data. The 72 task-specific supervised sets cover more languages and can be converted into instruction format.
+All instruction data in the repository is Slovenian: the GaMS-Instruct family and SloLexQA hold about 2.2M prompt–response pairs, 2.17M of them from three 2026 medical and pharmaceutical sets built from databases with LLM enrichment. Fully human-written data is limited to GaMS-Instruct-DH (10k pairs, digital humanities); the general-domain GaMS-Instruct-GEN has 6.8k GPT-4-generated pairs, manually validated. The only conversational data is the machine-generated vision-language set SLO-VLM-IT, and there is no preference data. The 68 task-specific supervised sets cover more languages and can be converted into instruction format.
 
-![Slovenian has 62 post-training datasets; Croatian 15 and Serbian 12](img/posttraining.svg)
+![Slovenian has 60 post-training datasets; Croatian 14 and Serbian 11](img/posttraining.svg)
 
 <sub>Datasets with files; a multilingual dataset counts once for each of its languages.</sub>
 
@@ -35,7 +35,6 @@ Three expert Q&A archives (ŠUSS, TermSvet, Terminologišče) contain real quest
 | --- | --- | --- | --- | --- |
 | [Summarization datasets from the KAS corpus KAS-Sum 1.0](http://hdl.handle.net/11356/1446) | sl, en | 1.1B words | ACA (BY-NC) | 2022 |
 | [Developmental corpus Šolar 3.0](http://hdl.handle.net/11356/1589) | sl | 1.6M words | CC BY-NC-SA | 2022 |
-| [Error-annotated developmental corpus Šolar 2.0 Error](http://hdl.handle.net/11356/1231) | sl | 756.1k words | CC BY-NC-SA | 2019 |
 | [Dataset of normalised Slovene text KonvNormSl 1.0](http://hdl.handle.net/11356/1068) | sl | 427k words | CC BY-SA | 2016 |
 | [CMC training corpus Janes-Norm 3.0](http://hdl.handle.net/11356/1733) | sl | 283.3k words | CC BY-SA | 2022 |
 | [Corpus of comma placement Vejica 1.3](http://hdl.handle.net/11356/1185) | sl | 104.2k sentences | CC BY-NC-SA | 2018 |
@@ -55,7 +54,6 @@ Three expert Q&A archives (ŠUSS, TermSvet, Terminologišče) contain real quest
 | [Training corpus jos1M 1.2](http://hdl.handle.net/11356/1213) | sl | 1M words | CC BY-NC | 2019 |
 | [Training corpus SUK 1.1](http://hdl.handle.net/11356/1959) | sl | 881.7k words | CC BY-SA | 2024 |
 | [Dataset of Slovene idiomatic expressions SloIE](http://hdl.handle.net/11356/1335) | sl | 695.6k words | CC BY-NC-SA | 2020 |
-| [Training corpus ssj500k 2.3](http://hdl.handle.net/11356/1434) | sl | 500.3k words | CC BY-NC-SA | 2021 |
 | [Corpus of term-annotated texts RSDO5 1.1](http://hdl.handle.net/11356/1470) | sl | 257k words | CC BY-SA | 2021 |
 | [Metaphor corpus KOMET 1.0](http://hdl.handle.net/11356/1293) | sl | 218.7k words | CC BY-NC-SA | 2020 |
 | [CMC training corpus Janes-Tag 3.0](http://hdl.handle.net/11356/1732) | sl | 190.3k words | CC BY-SA | 2022 |
@@ -73,12 +71,10 @@ Three expert Q&A archives (ŠUSS, TermSvet, Terminologišče) contain real quest
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
-| [Training corpus hr500k 1.0](http://hdl.handle.net/11356/1183) | hr | 506.5k words | CC BY-SA | 2018 |
 | [Croatian linguistic training corpus hr500k 2.0](http://hdl.handle.net/11356/1792) | hr | 499.6k words | CC BY-SA | 2023 |
 | [Serbian linguistic training corpus SETimes.SR 2.0](http://hdl.handle.net/11356/1843) | sr | 97.7k words | CC BY-SA | 2023 |
 | [Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0](http://hdl.handle.net/11356/1794) | sr | 92.3k words | CC BY-SA | 2023 |
 | [Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0](http://hdl.handle.net/11356/1793) | hr | 89.9k words | CC BY-SA | 2023 |
-| [Training corpus SETimes.SR 1.0](http://hdl.handle.net/11356/1200) | sr | 86.7k words | CC BY-SA | 2018 |
 | [Macedonian linguistic training corpus SETimes.MK 0.1](http://hdl.handle.net/11356/1886) | mk | 13.3k words | CC BY-SA | 2023 |
 
 ## Semantics, knowledge and information extraction
