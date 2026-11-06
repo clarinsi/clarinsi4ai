@@ -23,13 +23,13 @@
 <text x="120" y="253" text-anchor="end" fill="#1f2328">BCMS (hbs)</text>
 <rect x="130" y="240" width="14.5" height="18" rx="2" fill="#2f6fd6"/>
 <text x="150.5" y="253" fill="#1f2328">4</text>
-<text x="120" y="279" text-anchor="end" fill="#1f2328">Bulgarian</text>
-<rect x="130" y="266" width="10.8" height="18" rx="2" fill="#2f6fd6"/>
+<text x="120" y="279" text-anchor="end" fill="#1f2328">French</text>
+<rect x="130" y="266" width="10.8" height="18" rx="2" fill="#c9c7bd"/>
 <text x="146.8" y="279" fill="#1f2328">3</text>
-<text x="120" y="305" text-anchor="end" fill="#1f2328">Slovak</text>
-<rect x="130" y="292" width="10.8" height="18" rx="2" fill="#c9c7bd"/>
+<text x="120" y="305" text-anchor="end" fill="#1f2328">Bulgarian</text>
+<rect x="130" y="292" width="10.8" height="18" rx="2" fill="#2f6fd6"/>
 <text x="146.8" y="305" fill="#1f2328">3</text>
-<text x="120" y="331" text-anchor="end" fill="#1f2328">French</text>
+<text x="120" y="331" text-anchor="end" fill="#1f2328">Slovak</text>
 <rect x="130" y="318" width="10.8" height="18" rx="2" fill="#c9c7bd"/>
 <text x="146.8" y="331" fill="#1f2328">3</text>
 <text x="120" y="357" text-anchor="end" fill="#1f2328">Polish</text>

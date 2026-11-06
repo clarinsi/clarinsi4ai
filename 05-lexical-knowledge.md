@@ -20,12 +20,12 @@ Slovenian is unusually well covered by open, machine-readable lexical data: a 37
 | [Slovenian-German Dictionary of Maks Pleteršnik (1894-1895)](http://hdl.handle.net/11356/1114) | sl, de | 103.2k entries | CC BY | 2006 |
 | [Franček portal headword list](http://hdl.handle.net/11356/1445) | sl | 100k entries | CC BY | 2021 |
 | [Dictionary of the Slovenian Normative Guide (2001)](http://hdl.handle.net/11356/1136) | sl | 92.6k entries | CC BY-NC-ND | 2019 |
+| [Comprehensive Slovenian-Hungarian Dictionary 3.0](http://hdl.handle.net/11356/2091) | sl, hu | 19k entries | CC BY-SA | 2026 |
 | [Franček portal historical module](http://hdl.handle.net/11356/1472) | sl | 41.9k entries | CC BY | 2021 |
 | [Lexicon of historical Slovene imp25k 1.1](http://hdl.handle.net/11356/1032) | sl | 28k entries | CC BY | 2014 |
 | [Words of the 16th-Century Slovenian Literary Language](http://hdl.handle.net/11356/1127) | sl | 27.8k entries | CC BY | 2011 |
-| [Comprehensive Slovenian-Hungarian Dictionary 3.0](http://hdl.handle.net/11356/2091) | sl, hu | 19k entries | CC BY-SA | 2026 |
-| [List of Slovenian pseudowords](http://hdl.handle.net/11356/2200) | sl | 17.2k entries | CC BY | 2026 |
 | [Slovene-Japanese Learner's Dictionary sloJa 1.1](http://hdl.handle.net/11356/2071) | sl, ja | 10k items | CC BY | 2025 |
+| [List of Slovenian pseudowords](http://hdl.handle.net/11356/2200) | sl | 17.2k entries | CC BY | 2026 |
 | [Japanese-Slovene learner's dictionary jaSlo 3.1](http://hdl.handle.net/11356/1050) | ja, sl | 9.9k entries | CC BY-SA | 2016 |
 | [Dictionary of the Slovenian Language in the Works of Janez Svetokriški](http://hdl.handle.net/11356/1092) | sl | 8.5k entries | CC BY | 2006 |
 | [Dictionary of New Slovenian Words](http://hdl.handle.net/11356/1091) | sl | 6.4k entries | CC BY | 2012 |

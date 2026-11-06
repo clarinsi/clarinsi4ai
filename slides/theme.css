@@ -100,3 +100,13 @@
 
 .reveal table .tag { font-size: 0.85em; }
 .reveal table.big { font-size: 0.82em; }
+
+/* Mini bar charts (language distributions) */
+.reveal .minibars { margin-top: 0.8em; font-size: 0.62em; }
+.reveal .minibars .mb-cap { color: var(--muted); margin-bottom: 6px; }
+.reveal .minibars .mb-row { display: grid; grid-template-columns: 110px 1fr; align-items: center; gap: 10px; margin: 4px 0; }
+.reveal .minibars .mb-lab { text-align: right; color: var(--ink); }
+.reveal .minibars .mb-track { display: flex; align-items: center; gap: 6px; }
+.reveal .minibars .mb-bar { display: inline-block; height: 18px; border-radius: 2px; background: var(--blue); }
+.reveal .minibars .mb-bar.o { background: #c9c7bd; }
+.reveal .minibars .mb-val { color: var(--ink); }

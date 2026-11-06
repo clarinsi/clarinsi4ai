@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 234" width="760" height="234" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12">
 <rect width="760" height="234" fill="#ffffff"/>
 <text x="20" y="30" font-size="16" font-weight="600" fill="#1f2328">Slovenian has about 5,900 hours of speech and Croatian 3,100; the others about 1,000 each</text>
-<text x="20" y="54" fill="#59636e">Hours of recorded speech per language: ParlaSpeech 4.0 plus single-language recordings. South Slavic languages in blue.</text>
+<text x="20" y="54" fill="#59636e">Hours of recorded speech per language. South Slavic languages in blue.</text>
 <text x="120" y="97" text-anchor="end" fill="#1f2328">Slovenian</text>
 <rect x="130" y="84" width="430.0" height="18" rx="2" fill="#2f6fd6"/>
 <text x="566.0" y="97" fill="#1f2328">5,902 h</text>

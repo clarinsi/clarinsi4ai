@@ -2,50 +2,48 @@
 
 [← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
-The repository holds about 58B words of pre-training text once known overlaps are removed (125B words across all records), and 50B of it is openly licensed. Web corpora supply most of it: CLASSLA-web 2.0 alone has 17B words in the seven South Slavic languages, and MaCoCu adds seven more languages. For Slovenian, domain corpora add 2.6B words of scientific text, 772M words of legal text and 239M words of parliamentary debate.
+The repository holds about 53B words of pre-training text once known overlaps are removed (114B words across all records), and 50B of it is openly licensed. Per language, Slovenian has the most, roughly 9B words. Web corpora supply most of it: CLASSLA-web 2.0 alone has 17B words in the seven South Slavic languages, and MaCoCu adds seven more languages. For Slovenian, domain corpora add 2.6B words of scientific text, 772M words of legal text and 239M words of parliamentary debate.
 
-![Every South Slavic language has open web text; four have more than 2B words](img/pretraining.svg)
+![Slovenian has about 9B words of pre-training text; five languages have 4–6B](img/pretraining.svg)
 
-<sub>South Slavic sizes from the CLASSLA-web 2.0 record; other languages from the largest single-language open web corpus.</sub>
+<sub>Estimate over all pre-training records after removing known overlaps (see the method). CLASSLA-web 2.0 split by its stated per-language sizes, TURK, Kranjska and yu1Parl by their stated shares, other multilingual records evenly across their languages.</sub>
 
 **Sections:** [Web corpora](#web-corpora) · [Reference, news and monitor corpora](#reference-news-and-monitor-corpora) · [Books and literature](#books-and-literature) · [Specialised domains: science, law, medicine, education](#specialised-domains-science-law-medicine-education) · [Parliamentary debates](#parliamentary-debates) · [Social media and user comments](#social-media-and-user-comments) · [Historical text](#historical-text) · [Parallel and translation data](#parallel-and-translation-data)
 
 ## Web corpora
 
-CLASSLA-web 2.0 (crawled in 2024) is the current reference for the South Slavic languages. All MaCoCu and CLASSLA-web corpora are CC0; CLASSLA-web and MaCoCu-Genre carry genre labels, and CLASSLA-web 2.0 adds topic labels. Older crawls (the WaC corpora, MaCoCu, BERTić-data) overlap with it in part.
+CLASSLA-web 2.0 (crawled in 2024) is the current reference for the South Slavic languages. All MaCoCu and CLASSLA-web corpora are CC0; CLASSLA-web and MaCoCu-Genre carry genre labels, and CLASSLA-web 2.0 adds topic labels. Older crawls (the WaC corpora, CLASSLA-web 1.0, BERTić-data) overlap with it in part. The monolingual MaCoCu corpora for the South Slavic languages are left out, as CLASSLA-web 1.0 is a cleaned version of them; the English-paired MaCoCu corpora are independent and listed under parallel data.
 
-#### Slovenian, including multilingual resources with Slovenian
+#### Slovenian, including the Slovenian part of multilingual resources
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
-| [Genre-enriched web corpora MaCoCu-Genre](http://hdl.handle.net/11356/1969) | 13 languages | 28.5B words | CC0 | 2024 |
-| [South Slavic web corpus collection CLASSLA-web 2.0](http://hdl.handle.net/11356/2079) | 7 languages | 17B words | CC0 | 2026 |
-| [Slovene web corpus MaCoCu-sl 2.0](http://hdl.handle.net/11356/1795) | sl | 1.9B words | CC0 | 2023 |
+| [South Slavic web corpus collection CLASSLA-web 2.0](http://hdl.handle.net/11356/2079) · Slovenian part | sl | 2.3B words | CC0 | 2026 |
+| [Genre-enriched web corpora MaCoCu-Genre](http://hdl.handle.net/11356/1969) · Slovenian part | sl | ≈ 1.8B words | CC0 | 2024 |
 | [Slovenian web corpus CLASSLA-web.sl 1.0](http://hdl.handle.net/11356/1882) | sl | 1.8B words | CC0 | 2024 |
-| [Comparable corpora of South-Slavic Wikipedias CLASSLA-Wikipedia 1.0](http://hdl.handle.net/11356/1427) | 7 languages | 486.3M words | CC BY | 2021 |
+| [Comparable corpora of South-Slavic Wikipedias CLASSLA-Wikipedia 1.0](http://hdl.handle.net/11356/1427) · Slovenian part | sl | not stated | CC BY | 2021 |
 
-#### Other languages
+Sizes marked ≈ are estimates: MaCoCu-Genre from CLASSLA-web.sl 1.0 (1.77B words), on which its Slovenian part is based.
+
+#### Other languages, and multilingual resources in full
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
 | [Text collection for training the BERTić transformer model BERTić-data](http://hdl.handle.net/11356/1426) | bs, hr, cnr, sr | 8.4B words | CC BY-SA | 2021 |
-| [Bulgarian web corpus MaCoCu-bg 2.0](http://hdl.handle.net/11356/1800) | bg | 3.5B words | CC0 | 2023 |
 | [Bulgarian web corpus CLASSLA-web.bg 1.0](http://hdl.handle.net/11356/1928) | bg | 3.2B words | CC0 | 2024 |
-| [Serbian web corpus MaCoCu-sr 1.0](http://hdl.handle.net/11356/1807) | sr | 2.5B words | CC0 | 2023 |
-| [Croatian web corpus MaCoCu-hr 2.0](http://hdl.handle.net/11356/1806) | hr | 2.4B words | CC0 | 2023 |
 | [Serbian web corpus CLASSLA-web.sr 1.0](http://hdl.handle.net/11356/1931) | sr | 2.3B words | CC0 | 2024 |
 | [Croatian web corpus CLASSLA-web.hr 1.0](http://hdl.handle.net/11356/1929) | hr | 2.2B words | CC0 | 2024 |
 | [Croatian web corpus hrWaC 2.1](http://hdl.handle.net/11356/1064) | hr | 1.4B words | CC BY-SA | 2016 |
-| [Bosnian web corpus MaCoCu-bs 1.0](http://hdl.handle.net/11356/1808) | bs | 730.3M words | CC0 | 2023 |
 | [Serbian Web Corpus PDRS 1.0](http://hdl.handle.net/11356/1752) | sr | 715.4M words | CC BY | 2023 |
 | [Bosnian web corpus CLASSLA-web.bs 1.0](http://hdl.handle.net/11356/1927) | bs | 686.2M words | CC0 | 2024 |
 | [Serbian web corpus srWaC 1.1](http://hdl.handle.net/11356/1063) | sr | 554.6M words | CC BY-SA | 2016 |
-| [Macedonian web corpus MaCoCu-mk 2.0](http://hdl.handle.net/11356/1801) | mk | 524.1M words | CC0 | 2023 |
 | [Macedonian web corpus CLASSLA-web.mk 1.0](http://hdl.handle.net/11356/1932) | mk | 479.1M words | CC0 | 2024 |
 | [Bosnian web corpus bsWaC 1.1](http://hdl.handle.net/11356/1062) | bs | 286.9M words | CC BY-SA | 2016 |
-| [Montenegrin web corpus MaCoCu-cnr 1.0](http://hdl.handle.net/11356/1809) | cnr | 161.4M words | CC0 | 2023 |
 | [Montenegrin web corpus CLASSLA-web.cnr 1.0](http://hdl.handle.net/11356/1930) | cnr | 150.7M words | CC0 | 2024 |
 | [Montenegrin web corpus meWaC 1.0](http://hdl.handle.net/11356/1429) | cnr | 90.9M words | CC BY-SA | 2021 |
+| [Genre-enriched web corpora MaCoCu-Genre](http://hdl.handle.net/11356/1969) | 13 languages | 28.5B words | CC0 | 2024 |
+| [South Slavic web corpus collection CLASSLA-web 2.0](http://hdl.handle.net/11356/2079) | 7 languages | 17B words | CC0 | 2026 |
+| [Comparable corpora of South-Slavic Wikipedias CLASSLA-Wikipedia 1.0](http://hdl.handle.net/11356/1427) | 7 languages | 486.3M words | CC BY | 2021 |
 | [Ukrainian web corpus MaCoCu-uk 1.0](http://hdl.handle.net/11356/1838) | uk | 6.2B words | CC0 | 2023 |
 | [Greek web corpus MaCoCu-el 1.0](http://hdl.handle.net/11356/1839) | el | 4.4B words | CC0 | 2023 |
 | [Turkish web corpus MaCoCu-tr 2.0](http://hdl.handle.net/11356/1802) | tr | 4.3B words | CC0 | 2023 |
@@ -103,7 +101,7 @@ The 2026 e-book release adds 231 EPUB samples (the opening part of each book) fr
 
 OSS (2.6B words, CC BY-SA) and COLESLAW (772M words, CC BY) are the two large openly licensed Slovenian domain corpora. KAS 2.0 (1.5B words of academic theses) is restricted to academic users.
 
-#### Slovenian, including multilingual resources with Slovenian
+#### Slovenian, including the Slovenian part of multilingual resources
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
@@ -111,8 +109,8 @@ OSS (2.6B words, CC BY-SA) and COLESLAW (772M words, CC BY) are the two large op
 | [Corpus of academic Slovene KAS 2.0](http://hdl.handle.net/11356/1448) | sl | 1.5B words | ACA (BY-NC) | 2022 |
 | [Collection of Slovenian legal texts COLESLAW 1.0](http://hdl.handle.net/11356/2095) | sl | 771.9M words | CC BY | 2024 |
 | [Corpus of scientific texts of contemporary Slovenian KZB 1.0](http://hdl.handle.net/11356/1872) | sl | 33.6M words | CC BY-SA | 2023 |
-| [Tourism Corpus TURK 3.0](http://hdl.handle.net/11356/2075) | sl, it, en, de | 29.5M words | CC BY | 2025 |
-| [Abstracts from the KAS corpus KAS-Abs 2.0](http://hdl.handle.net/11356/1449) | sl, en | 28.4M words | ACA (BY-NC) | 2022 |
+| [Tourism Corpus TURK 3.0](http://hdl.handle.net/11356/2075) · Slovenian part | sl | ≈ 27.7M words | CC BY | 2025 |
+| [Abstracts from the KAS corpus KAS-Abs 2.0](http://hdl.handle.net/11356/1449) · Slovenian part | sl | 71.6k abstracts, ≈ 16M words | ACA (BY-NC) | 2022 |
 | [Corpus of Slovene linguistic scientific writing JezKor](http://hdl.handle.net/11356/1755) | sl | 9.3M words | CC BY | 2023 |
 | [Corpus of Informatics DSI 5.0](http://hdl.handle.net/11356/1239) | sl | 4.3M words | ACA (BY-NC) | 2019 |
 | [Corpus of Slovenian textbooks ccUčbeniki 1.0](http://hdl.handle.net/11356/1693) | sl | 2.2M words | CC BY-NC-SA | 2022 |
@@ -125,28 +123,45 @@ OSS (2.6B words, CC BY-SA) and COLESLAW (772M words, CC BY) are the two large op
 | [Corpus of textbooks for learning Slovenian as L2 ccKUUS 2.0](http://hdl.handle.net/11356/1878) | sl | 83.3k words | CC BY-NC-SA | 2023 |
 | [Dataset of Slovene medical texts PoVeJMo-VeMo-Med 1.0](http://hdl.handle.net/11356/1983) | sl | 17.7k texts | CC BY | 2024 |
 
-#### Other languages
+Sizes marked ≈ are estimates: KAS-Abs as the Slovenian share of the abstract files (71,567 of 125,202); TURK as the 94% of the corpus that the record gives as Slovenian.
+
+#### Other languages, and multilingual resources in full
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
 | [Croatian corpus of non-professional written language by typical speakers and speakers with language disorders RAPUT 1.0](http://hdl.handle.net/11356/1435) | hr | 426.2k words | CC BY-SA | 2021 |
 | [Monolingual Mining Corpus - RudKorP (ELEXIS)](http://hdl.handle.net/11356/1602) | sr | 136 articles | none, no files | 2020 |
 | [Corpus of Legislation texts of Republic of Serbia 1.0](http://hdl.handle.net/11356/1754) | sr | 5 files | CC BY | 2022 |
+| [Tourism Corpus TURK 3.0](http://hdl.handle.net/11356/2075) | sl, it, en, de | 29.5M words | CC BY | 2025 |
+| [Abstracts from the KAS corpus KAS-Abs 2.0](http://hdl.handle.net/11356/1449) | sl, en | 28.4M words | ACA (BY-NC) | 2022 |
 | [Corpus of Romanian Academic Genres ROGER](http://hdl.handle.net/11356/1700) | ro, en | 3.3M words | none, no files | 2022 |
 
 ## Parliamentary debates
 
 ParlaMint covers 29 parliaments with 1.2B words of speaker-attributed transcripts under CC BY. ParlaMint-en.ana is a machine translation of all of them into English (1.4B words).
 
+#### Slovenian, including the Slovenian part of multilingual resources
+
+| Resource | Languages | Size | Licence | Year |
+| --- | --- | --- | --- | --- |
+| [Slovenian parliamentary corpus (1990-2022) siParl 4.0](http://hdl.handle.net/11356/1936) | sl | 239.2M words | CC BY | 2024 |
+| [Slovenian parliamentary corpus (1990-1992) SlovParl 2.0](http://hdl.handle.net/11356/1167) | sl | 10.8M words | CC BY | 2017 |
+| [Carniolan Provincial Assembly corpus Kranjska 1.0](http://hdl.handle.net/11356/1824) · Slovenian part | sl | ≈ 6.3M words | CC BY | 2023 |
+| [Parliamentary corpus of first Yugoslavia (1919-1939) yu1Parl 1.0](http://hdl.handle.net/11356/1845) · Slovenian part | sl | ≈ 0.4M words | CC BY | 2023 |
+| [Corpus of political party programs Programi2022](http://hdl.handle.net/11356/1734) | sl | 330.6k words | CC BY-NC-SA | 2022 |
+| [Multilingual comparable corpora of parliamentary debates ParlaMint 5.0](http://hdl.handle.net/11356/2004) · Slovenian part | sl | not stated | CC BY | 2025 |
+| [Linguistically annotated multilingual comparable corpora of parliamentary debates ParlaMint.ana 5.0](http://hdl.handle.net/11356/2005) · Slovenian part | sl | not stated | CC BY | 2025 |
+
+Sizes marked ≈ are estimates: Kranjska and yu1Parl from the share of Slovenian sentences given in the record (58% and 3%).
+
+#### Other languages, and multilingual resources in full
+
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
 | [Multilingual comparable corpora of parliamentary debates ParlaMint 5.0](http://hdl.handle.net/11356/2004) | 29 languages | 1.2B words | CC BY | 2025 |
 | [Linguistically annotated multilingual comparable corpora of parliamentary debates ParlaMint.ana 5.0](http://hdl.handle.net/11356/2005) | 29 languages | 1.2B words | CC BY | 2025 |
-| [Slovenian parliamentary corpus (1990-2022) siParl 4.0](http://hdl.handle.net/11356/1936) | sl | 239.2M words | CC BY | 2024 |
 | [Parliamentary corpus of first Yugoslavia (1919-1939) yu1Parl 1.0](http://hdl.handle.net/11356/1845) | sr, hr, sl | 13.3M words | CC BY | 2023 |
 | [Carniolan Provincial Assembly corpus Kranjska 1.0](http://hdl.handle.net/11356/1824) | sl, de | 10.9M words | CC BY | 2023 |
-| [Slovenian parliamentary corpus (1990-1992) SlovParl 2.0](http://hdl.handle.net/11356/1167) | sl | 10.8M words | CC BY | 2017 |
-| [Corpus of political party programs Programi2022](http://hdl.handle.net/11356/1734) | sl | 330.6k words | CC BY-NC-SA | 2022 |
 | [Comparable corpus of parliamentary debates ParlaMint-IL 1.0](http://hdl.handle.net/11356/2032) | heb | 409.4M words | CC BY-SA | 2025 |
 | [Ukrainian parliamentary corpus ParlaMint-UA 4.0.1](http://hdl.handle.net/11356/1900) | uk, ru | 42M words | CC BY | 2023 |
 | [Comparable corpus of parliamentary debates ParlaMint-ES-CN 1.0](http://hdl.handle.net/11356/2063) | es | 39.8M words | CC BY | 2025 |
@@ -156,7 +171,7 @@ ParlaMint covers 29 parliaments with 1.2B words of speaker-attributed transcript
 
 The Janes corpora (2017) remain the main source of Slovenian non-standard written language. The large news-comment collections for Croatian, Estonian and Latvian are no-derivatives licensed, which rules out most training uses.
 
-#### Slovenian, including multilingual resources with Slovenian
+#### Slovenian, including the Slovenian part of multilingual resources
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
@@ -168,9 +183,9 @@ The Janes corpora (2017) remain the main source of Slovenian non-standard writte
 | [Slovenian Twitter dataset 2018-2020 1.0](http://hdl.handle.net/11356/1423) | sl | 13M texts | CC BY-SA | 2021 |
 | [Wikipedia talk corpus Janes-Wiki 1.0](http://hdl.handle.net/11356/1137) | sl | 5M words | CC BY-SA | 2017 |
 | [Annotated corpus of Slovenian language-related news comments MetaLangNEWS-COMMENTS-Sl](http://hdl.handle.net/11356/1362) | sl | 44.2k words | CC BY-NC-SA | 2020 |
-| [Facebook metadata dataset LiLaH-HAG](http://hdl.handle.net/11356/1483) | en, nl, sl, hr | 10.4k entries | CC BY-NC-SA | 2022 |
+| [Facebook metadata dataset LiLaH-HAG](http://hdl.handle.net/11356/1483) · Slovenian part | sl | not stated | CC BY-NC-SA | 2022 |
 
-#### Other languages
+#### Other languages, and multilingual resources in full
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
@@ -181,6 +196,7 @@ The Janes corpora (2017) remain the main source of Slovenian non-standard writte
 | [The Sarajevo Corpus of SMS Messages in Bosnian 1.1](http://hdl.handle.net/11356/1956) | bs | 105.9k words | CC BY | 2024 |
 | [Corpus of Bosnia and Herzegovina language-related news comments MetaLangNEWS-COMMENTS-Bs](http://hdl.handle.net/11356/1691) | bs, sr, hr | 5.7k texts | CC BY-NC-SA | 2022 |
 | [Corpus of Montenegrin language-related news comments MetaLangNEWS-COMMENTS-Me](http://hdl.handle.net/11356/1689) | cnr, sr | 2.3k texts | CC BY-NC-SA | 2022 |
+| [Facebook metadata dataset LiLaH-HAG](http://hdl.handle.net/11356/1483) | en, nl, sl, hr | 10.4k entries | CC BY-NC-SA | 2022 |
 | [Ekspress user comment dataset 1.0](http://hdl.handle.net/11356/1401) | et, ru | 31.5M texts | CC BY-NC-ND | 2021 |
 | [Latvian user comment dataset 1.0](http://hdl.handle.net/11356/1407) | lv, ru | 12.4M texts | CC BY-NC-ND | 2021 |
 | [Tweets about impact investing](http://hdl.handle.net/11356/1188) | en | 668.5k entries | CC BY-SA | 2018 |
@@ -188,6 +204,8 @@ The Janes corpora (2017) remain the main source of Slovenian non-standard writte
 ## Historical text
 
 sPeriodika (708M words of Slovenian periodicals, 1771–1914, CC BY-SA) is the largest historical source. It contains OCR noise; a matching post-OCR correction set is listed under post-training.
+
+#### Slovenian, including the Slovenian part of multilingual resources
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
@@ -202,30 +220,39 @@ sPeriodika (708M words of Slovenian periodicals, 1771–1914, CC BY-SA) is the l
 | [Concordances of Primož Trubar's "Ta evangeli sv. Matevža" (1555)](http://hdl.handle.net/11356/1124) | sl | 23.6k items | CC BY | 2018 |
 | [Concordance of Trubar's Gospel of St. Matthew (1555) (ELEXIS)](http://hdl.handle.net/11356/1617) | sl | 23.6k items | none, no files | 2020 |
 | [Documents on Magdalena Gornik in mid-19th century manuscripts 1.0](http://hdl.handle.net/11356/1993) | sl | 285 pages | CC BY-SA | 2024 |
+| [Slovenian manuscript sermons by Ignacij Holzapfel 1.0](http://hdl.handle.net/11356/1995) · Slovenian part | sl | most of the 220 pages | CC BY-SA | 2024 |
+| [Epigraphic corpus of Medieval and Early Modern inscriptions in Slovenia MEMIS 1.0](http://hdl.handle.net/11356/1376) · Slovenian part | sl | 51 translated inscriptions | CC BY-SA | 2020 |
+
+#### Other languages, and multilingual resources in full
+
+| Resource | Languages | Size | Licence | Year |
+| --- | --- | --- | --- | --- |
+| [Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1](http://hdl.handle.net/11356/1441) | bg, mk | 53.3k words | CC BY-SA | 2021 |
 | [Slovenian manuscript sermons by Ignacij Holzapfel 1.0](http://hdl.handle.net/11356/1995) | sl, de, la | 220 pages | CC BY-SA | 2024 |
 | [Epigraphic corpus of Medieval and Early Modern inscriptions in Slovenia MEMIS 1.0](http://hdl.handle.net/11356/1376) | sl, la | 51 texts | CC BY-SA | 2020 |
-| [Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1](http://hdl.handle.net/11356/1441) | bg, mk | 53.3k words | CC BY-SA | 2021 |
 | [Disasters corpus in classical Arabic sources DiCCAS](http://hdl.handle.net/11356/2097) | ar | 289.5k words | CC BY-NC-SA | 2026 |
 
 ## Parallel and translation data
 
 MaCoCu provides CC0 English-paired corpora for 14 languages, from 10.6M (Icelandic) to 239M words (Ukrainian). DGT-UD adds 2.1B words of EU translation memories in 23 languages.
 
-#### Slovenian, including multilingual resources with Slovenian
+#### Slovenian, including the Slovenian part of multilingual resources
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
-| [JRC EU DGT Translation Memory Parsebank DGT-UD 1.0](http://hdl.handle.net/11356/1197) | 23 languages | 2.1B words | CC BY | 2018 |
-| [Slovene-English parallel corpus MaCoCu-sl-en 2.0](http://hdl.handle.net/11356/1813) | sl, en | 85M words | CC0 | 2023 |
-| [Slovene-English parallel corpus slenWaC 1.0](http://hdl.handle.net/11356/1061) | sl, en | 27.9M words | CLARIN.SI web-corpus licence | 2016 |
-| [Machine Translation datasets from the KAS corpus KAS-MT 1.0](http://hdl.handle.net/11356/1447) | sl, en | 21.9M words | ACA (BY-NC) | 2022 |
-| [Parallel sense-annotated corpus ELEXIS-WSD 2.0](http://hdl.handle.net/11356/2101) | 18 languages | 572.6k words | CC BY-SA | 2026 |
-| [Slovenian translation corpus Spook 1.1](http://hdl.handle.net/11356/2077) | 5 languages | 375.5k words | ACA (BY-NC) | 2026 |
-| [MULTEXT-East "1984" document corpus 4.0](http://hdl.handle.net/11356/1044) | 10 languages | 66.5k sentences | CC BY-NC-SA | 2010 |
-| [Parallel corpus of idiomatic text ParaDiom 1.0](http://hdl.handle.net/11356/1714) | sl, en | 66.4k words | CC BY-NC-SA | 2022 |
-| [Parallel corpus EN-SL RSDO4 2.0](http://hdl.handle.net/11356/1698) | en, sl | – | CC BY-SA | 2021 |
+| [Parallel corpus EN-SL RSDO4 2.0](http://hdl.handle.net/11356/1698) · Slovenian part | sl | 3.1M sentences | CC BY-SA | 2021 |
+| [Slovene-English parallel corpus MaCoCu-sl-en 2.0](http://hdl.handle.net/11356/1813) · Slovenian part | sl | 1.9M segments, ≈ 42M words | CC0 | 2023 |
+| [Slovene-English parallel corpus slenWaC 1.0](http://hdl.handle.net/11356/1061) · Slovenian part | sl | ≈ 14M words | CLARIN.SI web-corpus licence | 2016 |
+| [Machine Translation datasets from the KAS corpus KAS-MT 1.0](http://hdl.handle.net/11356/1447) · Slovenian part | sl | 496k sentences, ≈ 11M words | ACA (BY-NC) | 2022 |
+| [MULTEXT-East "1984" document corpus 4.0](http://hdl.handle.net/11356/1044) · Slovenian part | sl | ≈ 6.7k sentences | CC BY-NC-SA | 2010 |
+| [Parallel corpus of idiomatic text ParaDiom 1.0](http://hdl.handle.net/11356/1714) · Slovenian part | sl | 2,000 sentences, ≈ 33k words | CC BY-NC-SA | 2022 |
+| [Parallel sense-annotated corpus ELEXIS-WSD 2.0](http://hdl.handle.net/11356/2101) · Slovenian part | sl | 2,024 sentences | CC BY-SA | 2026 |
+| [JRC EU DGT Translation Memory Parsebank DGT-UD 1.0](http://hdl.handle.net/11356/1197) · Slovenian part | sl | not stated | CC BY | 2018 |
+| [Slovenian translation corpus Spook 1.1](http://hdl.handle.net/11356/2077) · Slovenian part | sl | not stated | ACA (BY-NC) | 2026 |
 
-#### Other languages
+Sizes marked ≈ are estimates: the "1984" corpus as one of its ten language versions; bilingual corpora as half of the word count of the pairs.
+
+#### Other languages, and multilingual resources in full
 
 | Resource | Languages | Size | Licence | Year |
 | --- | --- | --- | --- | --- |
@@ -240,6 +267,15 @@ MaCoCu provides CC0 English-paired corpora for 14 languages, from 10.6M (Iceland
 | [English-Montenegrin parallel corpus of subtitles Opus-MontenegrinSubs 1.0](http://hdl.handle.net/11356/1176) | cnr, en | 853.2k words | CC BY-SA | 2018 |
 | [Tourism English-Croatian Parallel Corpus 2.0](http://hdl.handle.net/11356/1049) | en, hr | 139.9k entries | CLARIN.SI web-corpus licence | 2016 |
 | [Bilingual Corpus of Underground Mining (ELEXIS)](http://hdl.handle.net/11356/1603) | en, sr | – | none, no files | 2020 |
+| [JRC EU DGT Translation Memory Parsebank DGT-UD 1.0](http://hdl.handle.net/11356/1197) | 23 languages | 2.1B words | CC BY | 2018 |
+| [Parallel corpus EN-SL RSDO4 2.0](http://hdl.handle.net/11356/1698) | en, sl | 3.1M sentence pairs | CC BY-SA | 2021 |
+| [Slovene-English parallel corpus MaCoCu-sl-en 2.0](http://hdl.handle.net/11356/1813) | sl, en | 85M words | CC0 | 2023 |
+| [Slovene-English parallel corpus slenWaC 1.0](http://hdl.handle.net/11356/1061) | sl, en | 27.9M words | CLARIN.SI web-corpus licence | 2016 |
+| [Machine Translation datasets from the KAS corpus KAS-MT 1.0](http://hdl.handle.net/11356/1447) | sl, en | 21.9M words | ACA (BY-NC) | 2022 |
+| [Parallel sense-annotated corpus ELEXIS-WSD 2.0](http://hdl.handle.net/11356/2101) | 18 languages | 572.6k words | CC BY-SA | 2026 |
+| [Slovenian translation corpus Spook 1.1](http://hdl.handle.net/11356/2077) | 5 languages | 375.5k words | ACA (BY-NC) | 2026 |
+| [MULTEXT-East "1984" document corpus 4.0](http://hdl.handle.net/11356/1044) | 10 languages | 66.5k sentences | CC BY-NC-SA | 2010 |
+| [Parallel corpus of idiomatic text ParaDiom 1.0](http://hdl.handle.net/11356/1714) | sl, en | 66.4k words | CC BY-NC-SA | 2022 |
 | [DSI-enriched ParaCrawl 9 en-es corpus](http://hdl.handle.net/11356/1526) | es, en | 269.4M sentences | CC0 | 2022 |
 | [Ukrainian-English parallel corpus MaCoCu-uk-en 1.0](http://hdl.handle.net/11356/1858) | uk, en | 238.8M words | CC0 | 2023 |
 | [Greek-English parallel corpus MaCoCu-el-en 1.0](http://hdl.handle.net/11356/1856) | el, en | 151.1M words | CC0 | 2023 |

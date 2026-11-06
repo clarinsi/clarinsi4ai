@@ -2,7 +2,7 @@
 
 [← Overview](./) · Part of *CLARIN.SI resources for AI development* · Data as of 22 October 2026
 
-The repository holds about 12,200 hours of recorded speech. ParlaSpeech 4.0, whose release is pending, gives 10,313 hours of aligned parliamentary speech: Slovenian 4,080 h, Croatian 3,110 h, Czech 1,218 h, Polish 1,009 h and Serbian 896 h. Beyond parliament, Slovenian adds ARTUR (1,067 h, built for ASR), Gos 2.1 (319 h, academic users only), 304 h of audiobook samples and the 100-hour Gail Valley dialect corpus, for about 5,900 hours in total. Multimodal data is limited to two recent Slovenian sets.
+The repository holds about 12,200 hours of recorded speech. ParlaSpeech 4.0 gives 10,313 hours of aligned parliamentary speech: Slovenian 4,080 h, Croatian 3,110 h, Czech 1,218 h, Polish 1,009 h and Serbian 896 h. Beyond parliament, Slovenian adds ARTUR (1,067 h, built for ASR), Gos 2.1 (319 h, academic users only), 304 h of audiobook samples and the 100-hour Gail Valley dialect corpus, for about 5,900 hours in total. Multimodal data is limited to two recent Slovenian sets.
 
 ![Slovenian has about 5,900 hours of speech and Croatian 3,100; the others about 1,000 each](img/speech.svg)
 
@@ -12,7 +12,7 @@ The repository holds about 12,200 hours of recorded speech. ParlaSpeech 4.0, who
 
 ## Speech recordings
 
-ParlaSpeech 4.0 (release pending) supersedes all earlier ParlaSpeech releases, which were subsets of it, and is listed here once per language. Each language comes as sentence-aligned transcripts with filled and silent pauses (and word stress for Croatian and Serbian), with the FLAC audio in a separate record.
+ParlaSpeech 4.0 is listed once per language. Each language comes as sentence-aligned transcripts with filled and silent pauses (and word stress for Croatian and Serbian), with the FLAC audio in a separate record.
 
 #### Slovenian, including multilingual resources with Slovenian
 
